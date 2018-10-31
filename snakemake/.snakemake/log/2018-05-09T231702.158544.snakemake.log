@@ -1,0 +1,20 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Job counts:
+	count	jobs
+	1	down_sample_bams
+	1
+Error in rule down_sample_bams:
+    jobid: 0
+    output: ../data/bam/1240k/downsampled/KM4_allmerged_rmdup_reheader_1240k_0.5x.trimmed.bam
+
+RuleException:
+CalledProcessError in line 33 of /project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_downsample_bams.py:
+Command ' set -euo pipefail;  samtools -bs dp[dp['coverage']==wildcards.coverage][wildcards.id] ../data/bam/1240k/KM4_allmerged_rmdup_reheader_1240k.trimmed.bam > ../data/bam/1240k/downsampled/KM4_allmerged_rmdup_reheader_1240k_0.5x.trimmed.bam ' returned non-zero exit status 1.
+  File "/project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_downsample_bams.py", line 33, in __rule_down_sample_bams
+  File "/project/jnovembre/chichun/miniconda3/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Removing output files of failed job down_sample_bams since they might be corrupted:
+../data/bam/1240k/downsampled/KM4_allmerged_rmdup_reheader_1240k_0.5x.trimmed.bam
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /project/jnovembre/chichun/ancient-imputation-experiment/snakemake/.snakemake/log/2018-05-09T231702.158544.snakemake.log

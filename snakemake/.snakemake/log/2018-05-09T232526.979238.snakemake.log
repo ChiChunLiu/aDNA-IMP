@@ -1,0 +1,2 @@
+SyntaxError in line 29 of /project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_downsample_bams.py:
+Unexpected keyword param in rule definition (snakefile_downsample_bams.py, line 29)

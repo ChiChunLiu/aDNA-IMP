@@ -1,0 +1,21 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Job counts:
+	count	jobs
+	1	down_sample_bams
+	1
+Error in rule down_sample_bams:
+    jobid: 0
+    output: ../data/bam/1240k/downsampled/KM4_allmerged_rmdup_reheader_1240k_2x.trimmed.bam
+
+RuleException:
+TypeError in line 33 of /project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_downsample_bams.py:
+unhashable type: 'set'
+  File "/project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_downsample_bams.py", line 33, in __rule_down_sample_bams
+  File "/home/chichun/.local/lib/python3.6/site-packages/pandas/core/frame.py", line 2139, in __getitem__
+  File "/home/chichun/.local/lib/python3.6/site-packages/pandas/core/frame.py", line 2146, in _getitem_column
+  File "/home/chichun/.local/lib/python3.6/site-packages/pandas/core/generic.py", line 1840, in _get_item_cache
+  File "/project/jnovembre/chichun/miniconda3/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /project/jnovembre/chichun/ancient-imputation-experiment/snakemake/.snakemake/log/2018-05-10T005839.655226.snakemake.log

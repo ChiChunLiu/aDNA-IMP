@@ -1,0 +1,25 @@
+Building DAG of jobs...
+MissingInputException in line 5 of /project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_prepare_reference_panel.py:
+Missing input files for rule all:
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr10.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr22.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr18.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr12.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr13.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr5.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr3.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr9.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr6.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr1.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr11.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr16.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr8.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr21.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr7.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr17.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr20.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr15.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr14.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr2.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr19.pos
+/project/jnovembre/chichun/ancient-imputation-experiment/data/input/1240k2ref.chr4.pos

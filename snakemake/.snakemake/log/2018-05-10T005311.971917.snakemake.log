@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	12	down_sample_bams
+	1	ref_all
+	13
+
+rule down_sample_bams:
+    input: ../data/bam/1240k/KM4_allmerged_rmdup_reheader_1240k.trimmed.bam
+    output: ../data/bam/1240k/downsampled/KM4_allmerged_rmdup_reheader_1240k_0.1x.trimmed.bam
+    jobid: 4
+    wildcards: id=KM4, coverage=0.1
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /project/jnovembre/chichun/ancient-imputation-experiment/snakemake/.snakemake/log/2018-05-10T005311.971917.snakemake.log

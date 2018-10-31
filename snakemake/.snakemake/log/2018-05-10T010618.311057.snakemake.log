@@ -1,0 +1,137 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 12
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	12	down_sample_bams
+	1	ref_all
+	13
+
+rule down_sample_bams:
+    input: ../data/bam/1240k/KM4_allmerged_rmdup_reheader_1240k.trimmed.bam
+    output: ../data/bam/1240k/downsampled/KM4_allmerged_rmdup_reheader_1240k_2x.trimmed.bam
+    jobid: 9
+    wildcards: id=KM4, coverage=2
+    threads: 12
+
+Finished job 9.
+1 of 13 steps (8%) done
+
+rule down_sample_bams:
+    input: ../data/bam/1240k/KM4_allmerged_rmdup_reheader_1240k.trimmed.bam
+    output: ../data/bam/1240k/downsampled/KM4_allmerged_rmdup_reheader_1240k_1x.trimmed.bam
+    jobid: 3
+    wildcards: id=KM4, coverage=1
+    threads: 12
+
+Finished job 3.
+2 of 13 steps (15%) done
+
+rule down_sample_bams:
+    input: ../data/bam/1240k/KM4_allmerged_rmdup_reheader_1240k.trimmed.bam
+    output: ../data/bam/1240k/downsampled/KM4_allmerged_rmdup_reheader_1240k_0.5x.trimmed.bam
+    jobid: 12
+    wildcards: id=KM4, coverage=0.5
+    threads: 12
+
+Finished job 12.
+3 of 13 steps (23%) done
+
+rule down_sample_bams:
+    input: ../data/bam/1240k/KM4_allmerged_rmdup_reheader_1240k.trimmed.bam
+    output: ../data/bam/1240k/downsampled/KM4_allmerged_rmdup_reheader_1240k_0.1x.trimmed.bam
+    jobid: 4
+    wildcards: id=KM4, coverage=0.1
+    threads: 12
+
+Finished job 4.
+4 of 13 steps (31%) done
+
+rule down_sample_bams:
+    input: ../data/bam/1240k/M368_allmerged_rmdup_reheader_1240k.trimmed.bam
+    output: ../data/bam/1240k/downsampled/M368_allmerged_rmdup_reheader_1240k_0.1x.trimmed.bam
+    jobid: 5
+    wildcards: id=M368, coverage=0.1
+    threads: 12
+
+Finished job 5.
+5 of 13 steps (38%) done
+
+rule down_sample_bams:
+    input: ../data/bam/1240k/M368_allmerged_rmdup_reheader_1240k.trimmed.bam
+    output: ../data/bam/1240k/downsampled/M368_allmerged_rmdup_reheader_1240k_2x.trimmed.bam
+    jobid: 1
+    wildcards: id=M368, coverage=2
+    threads: 12
+
+Finished job 1.
+6 of 13 steps (46%) done
+
+rule down_sample_bams:
+    input: ../data/bam/1240k/M368_allmerged_rmdup_reheader_1240k.trimmed.bam
+    output: ../data/bam/1240k/downsampled/M368_allmerged_rmdup_reheader_1240k_1x.trimmed.bam
+    jobid: 10
+    wildcards: id=M368, coverage=1
+    threads: 12
+
+Finished job 10.
+7 of 13 steps (54%) done
+
+rule down_sample_bams:
+    input: ../data/bam/1240k/M368_allmerged_rmdup_reheader_1240k.trimmed.bam
+    output: ../data/bam/1240k/downsampled/M368_allmerged_rmdup_reheader_1240k_0.5x.trimmed.bam
+    jobid: 2
+    wildcards: id=M368, coverage=0.5
+    threads: 12
+
+Finished job 2.
+8 of 13 steps (62%) done
+
+rule down_sample_bams:
+    input: ../data/bam/1240k/CNE1_allmerged_rmdup_reheader_1240k.trimmed.bam
+    output: ../data/bam/1240k/downsampled/CNE1_allmerged_rmdup_reheader_1240k_0.5x.trimmed.bam
+    jobid: 11
+    wildcards: id=CNE1, coverage=0.5
+    threads: 12
+
+Finished job 11.
+9 of 13 steps (69%) done
+
+rule down_sample_bams:
+    input: ../data/bam/1240k/CNE1_allmerged_rmdup_reheader_1240k.trimmed.bam
+    output: ../data/bam/1240k/downsampled/CNE1_allmerged_rmdup_reheader_1240k_1x.trimmed.bam
+    jobid: 7
+    wildcards: id=CNE1, coverage=1
+    threads: 12
+
+Finished job 7.
+10 of 13 steps (77%) done
+
+rule down_sample_bams:
+    input: ../data/bam/1240k/CNE1_allmerged_rmdup_reheader_1240k.trimmed.bam
+    output: ../data/bam/1240k/downsampled/CNE1_allmerged_rmdup_reheader_1240k_2x.trimmed.bam
+    jobid: 6
+    wildcards: id=CNE1, coverage=2
+    threads: 12
+
+Finished job 6.
+11 of 13 steps (85%) done
+
+rule down_sample_bams:
+    input: ../data/bam/1240k/CNE1_allmerged_rmdup_reheader_1240k.trimmed.bam
+    output: ../data/bam/1240k/downsampled/CNE1_allmerged_rmdup_reheader_1240k_0.1x.trimmed.bam
+    jobid: 8
+    wildcards: id=CNE1, coverage=0.1
+    threads: 12
+
+Finished job 8.
+12 of 13 steps (92%) done
+
+localrule ref_all:
+    input: ../data/bam/1240k/downsampled/CNE1_allmerged_rmdup_reheader_1240k_0.1x.trimmed.bam, ../data/bam/1240k/downsampled/CNE1_allmerged_rmdup_reheader_1240k_0.5x.trimmed.bam, ../data/bam/1240k/downsampled/CNE1_allmerged_rmdup_reheader_1240k_1x.trimmed.bam, ../data/bam/1240k/downsampled/CNE1_allmerged_rmdup_reheader_1240k_2x.trimmed.bam, ../data/bam/1240k/downsampled/KM4_allmerged_rmdup_reheader_1240k_0.1x.trimmed.bam, ../data/bam/1240k/downsampled/KM4_allmerged_rmdup_reheader_1240k_0.5x.trimmed.bam, ../data/bam/1240k/downsampled/KM4_allmerged_rmdup_reheader_1240k_1x.trimmed.bam, ../data/bam/1240k/downsampled/KM4_allmerged_rmdup_reheader_1240k_2x.trimmed.bam, ../data/bam/1240k/downsampled/M368_allmerged_rmdup_reheader_1240k_0.1x.trimmed.bam, ../data/bam/1240k/downsampled/M368_allmerged_rmdup_reheader_1240k_0.5x.trimmed.bam, ../data/bam/1240k/downsampled/M368_allmerged_rmdup_reheader_1240k_1x.trimmed.bam, ../data/bam/1240k/downsampled/M368_allmerged_rmdup_reheader_1240k_2x.trimmed.bam
+    jobid: 0
+
+Finished job 0.
+13 of 13 steps (100%) done
+Complete log: /project/jnovembre/chichun/ancient-imputation-experiment/snakemake/.snakemake/log/2018-05-10T010618.311057.snakemake.log

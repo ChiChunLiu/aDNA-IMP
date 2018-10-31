@@ -1,0 +1,3 @@
+TypeError in line 30 of /project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_downsample_bams.py:
+unhashable type: 'list'
+  File "/project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_downsample_bams.py", line 30, in <module>

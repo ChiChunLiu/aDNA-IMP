@@ -1,0 +1,2 @@
+SyntaxError in line 53 of /project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_bam.py:
+EOF in multi-line statement (snakefile_bam.py, line 53)
