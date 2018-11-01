@@ -1,0 +1,11 @@
+path:
+
+    ref_input: '/project/jnovembre/chichun/1KG_ST_reference/chr_merged'
+    ref_output: '/project/jnovembre/chichun/ancient-imputation-experiment/data/1kg_reference/min_mac5'
+    data_input: '/project/jnovembre/chichun/ancient-imputation-experiment/data/input'
+    bam: '/project/jnovembre/chichun/ancient-imputation-experiment/data/bam'
+    merged_bam: '/project/jnovembre/chichun/ancient-tbtn-analysis/data/bam'
+    vcf_output: '/project/jnovembre/chichun/ancient-imputation-experiment/data/vcf'
+    ref_genome: '/project/jnovembre/chichun/ancient-imputation-experiment/data/input'
+    util: '/project/jnovembre/chichun/ancient-imputation-experiment/utils'
+    sgdp_bam: '/project/jnovembre/chichun/sgdp'
