@@ -1,0 +1,69 @@
+{
+    "__default__":
+    {
+        "time" : "5:00:00",
+		"mem" : "2G",
+		"n" : "1",
+        	"tasks" : "1",
+        	"name" : "{rule}-{wildcards}",
+        	"logfile": "log/snake-{rule}-{wildcards}-%j.out"
+	},
+	"norm_biallelic_mac5":
+	{
+	"time" : "10:00:00"
+	},
+	"filter_1240k_sites":
+	{
+	"time": "10:00:00",
+    	"mem": "4G"
+	},
+	"final_pos":
+    	{
+        "time": "10:00:00",
+        "mem": "2G"
+   	 },
+	"downsample_bam_LBK":
+	{
+	"time": "10:00:00",
+        "mem": "15G"
+	},
+	"downsample_bam_Naxi":
+	{
+        "time": "10:00:00",
+        "mem": "15G"
+        },
+	"downsample_bam_Yi":
+	{
+        "time": "10:00:00",
+        "mem": "15G"
+        },
+	"filter_1240k_read":
+	{
+        "time": "10:00:00",
+        "mem": "8G"
+        },
+	"downsample_bam_1240k":
+	{
+        "time": "10:00:00",
+        "mem": "5G"
+        },
+	"comp_lik_gatk_wgs":
+        {
+        "time": "4:00:00",
+        "mem": "18G"
+        },
+	"comp_lik_gatk_1240k":
+        {
+        "time": "3:00:00",
+        "mem": "10G"
+        },
+	"subset_f50k_empty_vcf":
+	{
+	"mem": "1G"
+	},
+	"f50k_capture_call":
+	{
+	"mem": "2G"
+	}
+		
+}
