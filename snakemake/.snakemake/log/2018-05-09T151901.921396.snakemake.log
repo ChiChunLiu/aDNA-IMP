@@ -1,4 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 20 of /project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_downsample_bams.py:
-Missing input files for rule down_sample_bams:
-data/bam/1240k/CNE1_allmerged_rmdup_reheader_1240k.trimmed.bam

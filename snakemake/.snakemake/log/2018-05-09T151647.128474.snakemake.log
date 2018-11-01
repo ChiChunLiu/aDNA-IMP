@@ -1,3 +1,0 @@
-TypeError in line 27 of /project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_downsample_bams.py:
-unhashable type: 'set'
-  File "/project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_downsample_bams.py", line 27, in <module>

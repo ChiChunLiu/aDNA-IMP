@@ -1,3 +1,0 @@
-WildcardError in line 34 of /project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_bam.py:
-No values given for wildcard 'id_1240k'.
-  File "/project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_bam.py", line 34, in <module>

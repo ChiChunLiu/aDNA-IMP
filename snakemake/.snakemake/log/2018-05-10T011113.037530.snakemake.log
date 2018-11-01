@@ -1,7 +1,0 @@
-Building DAG of jobs...
-Using shell: /bin/bash
-Job counts:
-	count	jobs
-	1	down_sample_bams
-	1
-Complete log: /project/jnovembre/chichun/ancient-imputation-experiment/snakemake/.snakemake/log/2018-05-10T011113.037530.snakemake.log

@@ -1,2 +1,0 @@
-SyntaxError in line 61 of /project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_bam.py:
-No rule keywords allowed after run/shell/script/wrapper/cwl in rule filter_1240k_read. (snakefile_bam.py, line 61)

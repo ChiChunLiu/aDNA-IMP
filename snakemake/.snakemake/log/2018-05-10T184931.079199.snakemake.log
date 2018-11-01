@@ -1,4 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 44 of /project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_genotype_prob.py:
-Missing input files for rule comp_lik_gatk_1240k:
-data/input/1240k_downsampled_bam.list

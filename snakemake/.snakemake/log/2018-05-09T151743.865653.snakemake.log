@@ -1,3 +1,0 @@
-KeyError in line 27 of /project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_downsample_bams.py:
-'{wildcards.id}'
-  File "/project/jnovembre/chichun/ancient-imputation-experiment/snakemake/snakefile_downsample_bams.py", line 27, in <module>
