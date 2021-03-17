@@ -1,5 +1,5 @@
 # aDNA-IMP
-pipeline for aDNA imputation with GeneImp, and scripts for analyzing accuracy and bias
+Pipeline for aDNA imputation with GeneImp, and scripts for analyzing accuracy and bias
 
 ![Imputation Reference Panel Bias versus Reference Genome Bias ](aTBN_imputation.analysis.jpg)
 
